@@ -132,8 +132,6 @@
     <ClCompile Include="Helpers\KeyValuesFactory.cpp" />
     <ClCompile Include="Helpers\PatternNotFoundHandler.cpp" />
     <ClCompile Include="Hooks\MinHook.cpp" />
-    <ClCompile Include="Hooks\VmtHook.cpp" />
-    <ClCompile Include="Hooks\VmtSwap.cpp" />
     <ClCompile Include="imguiCustom.cpp" />
     <ClCompile Include="InputUtil.cpp" />
     <ClCompile Include="InventoryChanger\Backend\Request\RequestHandler.cpp" />
@@ -333,8 +331,6 @@
     <ClInclude Include="Hooks\SurfaceHooks.h" />
     <ClInclude Include="Hooks\SvCheatsHooks.h" />
     <ClInclude Include="Hooks\ViewRenderHooks.h" />
-    <ClInclude Include="Hooks\VmtHook.h" />
-    <ClInclude Include="Hooks\VmtSwap.h" />
     <ClInclude Include="Hooks\WindowProcedureHook.h" />
     <ClInclude Include="HookType.h" />
     <ClInclude Include="imguiCustom.h" />
@@ -471,14 +467,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <SpectreMitigation>false</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <SpectreMitigation>false</SpectreMitigation>

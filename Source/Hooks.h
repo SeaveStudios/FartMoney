@@ -16,8 +16,6 @@ union SDL_Event;
 #endif
 
 #include "Hooks/MinHook.h"
-#include "Hooks/VmtHook.h"
-#include "Hooks/VmtSwap.h"
 #include "Memory.h"
 #include "InventoryChanger/InventoryChanger.h"
 #include "Hooks/ClientHooks.h"
